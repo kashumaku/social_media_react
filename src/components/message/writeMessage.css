@@ -1,0 +1,26 @@
+.writeMessage {
+  position: absolute;
+  background-color: rgb(94, 119, 5);
+  padding: 10px;
+  height: 200px;
+  top: 0;
+  width: 100%;
+}
+.recieverProfileImg,
+.senderProfileImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.reciever,
+.sender {
+  display: flex;
+  width: 150px;
+  position: relative;
+  gap: 5px;
+  margin-top: 5px;
+}
+.reciever {
+  left: 50%;
+}

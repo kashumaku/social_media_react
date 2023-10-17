@@ -1,0 +1,32 @@
+.messageContainer {
+  height: 500px;
+  background-color: rgb(241, 222, 197);
+  position: relative;
+  width: 96%;
+  overflow-y: scroll;
+  border-radius: 20px;
+  padding: 10px;
+}
+.close {
+  position: absolute;
+  color: rgb(255, 60, 0);
+  font-size: 26px;
+  top: -1px;
+  right: 2px;
+}
+.messageTitle {
+  text-align: center;
+  color: rgb(142, 20, 230);
+}
+.messageSender {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+.senderProfile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 5px;
+}

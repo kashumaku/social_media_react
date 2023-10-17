@@ -1,0 +1,152 @@
+.body {
+  display: flex;
+  height: calc(100vh - 60px);
+  width: 100vw;
+}
+.bodyLeftContainer {
+  flex: 1;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+
+.bodyCenterContainer {
+  flex: 2;
+  overflow-y: scroll;
+}
+.bodyRightContainer {
+  flex: 1;
+  overflow-y: scroll;
+}
+.bodyLeft {
+  background-color: rgb(186, 189, 192);
+}
+.bodyLeftMenu {
+  padding: 10px;
+}
+.bodyLeft li {
+  margin: 16px;
+  list-style: none;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+.bodyLeftIcons {
+  margin-right: 10px;
+  font-size: 30px;
+  color: rgb(142, 20, 230);
+}
+.logOut {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(39, 37, 37);
+  font-size: 18px;
+}
+.showMore {
+  background-color: rgb(186, 189, 192);
+  color: white;
+  font-size: large;
+  margin: 0 0 15px 26px;
+  border: none;
+}
+.friend {
+  display: flex;
+  align-items: center;
+}
+.friendsImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+/* center body */
+
+.bodyCenterTop {
+  box-shadow: 5px 15px 20px rgb(207, 205, 205);
+  margin: 20px 30px;
+  padding: 5px;
+}
+.shareTextProfile {
+  display: flex;
+  align-items: center;
+}
+.bodyCenterProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 3px;
+}
+.whatInMind {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+.whatInMind:focus {
+  outline: none;
+}
+.bodyCenterTop .share {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.photoVideo {
+  color: #f89008;
+}
+.tag {
+  color: blue;
+}
+.location {
+  color: green;
+}
+.feeling {
+  color: gold;
+}
+
+.bodyCenterBottom {
+  padding-left: 20%;
+}
+/* body right */
+.bodyRight {
+  height: calc(100vh-60px);
+}
+.bodyRightTop {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.activeFriends {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+.activeFriends > div {
+  margin: 5px;
+}
+
+.activeFriendsImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.activefriendProfile {
+  position: relative;
+  width: fit-content;
+  margin-right: 10px;
+}
+.activeStatus {
+  background-color: rgb(13, 248, 13);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid white;
+  bottom: 1px;
+  right: -1px;
+}

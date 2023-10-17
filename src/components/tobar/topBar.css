@@ -1,0 +1,90 @@
+.topBar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+}
+.topBarLeft {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(142, 20, 230);
+}
+.logoIcon {
+  color: aliceblue;
+  background-color: rgb(142, 20, 230);
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.topBar .logo {
+  font-size: 20px;
+  font-weight: 600px;
+  margin-left: 10px;
+}
+.topBarLogo {
+  text-decoration: none;
+}
+.topBarCenter {
+  display: flex;
+  align-items: center;
+  flex: 4;
+}
+.topBarSearch {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0;
+  padding: 2px 0 0 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  height: 30px;
+  width: 80%;
+  margin-left: 5px;
+  background-color: aliceblue;
+}
+.searchInput:focus {
+  outline: none;
+}
+.topBarRight {
+  flex: 3;
+}
+.topBarRight {
+  display: flex;
+  align-items: center;
+}
+.message,
+.friendRequest,
+.notification {
+  position: relative;
+  margin-inline: 10px;
+}
+.topBarIcon {
+  font-size: 30px;
+  color: rgb(142, 20, 230);
+}
+.messageCounter,
+.friendRequestCounter,
+.notificationCounter {
+  position: absolute;
+  right: -5px;
+  top: -8px;
+  color: rgb(53, 5, 141);
+  border-radius: 30%;
+}
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
