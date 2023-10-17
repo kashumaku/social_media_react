@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+use kassahun@gmail.com for email/password field and kassahun1234 for password field to log into home page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
