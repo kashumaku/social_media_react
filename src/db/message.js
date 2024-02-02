@@ -1,147 +1,165 @@
 export const messages = [
-    {
-        user_id: 80,
-        sender_id: 10,
-        sender_firstname: "Adanech",
-        sender_lastname: "Abebe",
-        date: "12:06",
-        message: "hello how are you"
-        ,
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Biniam",
-        sender_lastname: "Alemu",
-        date: "09:33",
-        message: "i will be home at 12:00",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 8,
-        sender_id: 12,
-        sender_firstname: "Tina",
-        sender_lastname: "Dawit",
-        date: "7:10",
-        message: "do your home work on time",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Birtie",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    }, {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Melkamu",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Minie",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 10,
-        sender_firstname: "Hareg",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Tesfa",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    }
-    , {
-        user_id: 80,
-        sender_id: 10,
-        sender_firstname: "Melkamu",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Minie",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Hareg",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Tesfa",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    }
-    , {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Melkamu",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Minie",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Hareg",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    },
-    {
-        user_id: 80,
-        sender_id: 12,
-        sender_firstname: "Tesfa",
-        sender_lastname: "Argaw",
-        date: "05:06",
-        message: "we will graduate in augest",
-        message_r: "hello from addis avava"
-    }
+  {
+    user_id: 80,
+    sender_id: 10,
+    sender_firstname: "Adanech",
+    sender_lastname: "Abebe",
+    profile:
+      "https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&w=400",
+    date: "12:06",
+    message: "hello how are you",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Biniam",
+    sender_lastname: "Alemu",
+    profile: "",
+    date: "09:33",
+    message: "i will be home at 12:00",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 8,
+    sender_id: 12,
+    sender_firstname: "Tina",
+    sender_lastname: "Dawit",
+    profile:
+      "https://images.pexels.com/photos/3987107/pexels-photo-3987107.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "7:10",
+    message: "do your home work on time",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Birtie",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1382732/pexels-photo-1382732.jpeg?auto=compress&cs=tinysrgb&w=400",
 
-]
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Melkamu",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Minie",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 10,
+    sender_firstname: "Hareg",
+    sender_lastname: "Argaw",
+    profile: "",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Tesfa",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 10,
+    sender_firstname: "Melkamu",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Minie",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Hareg",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Tesfa",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Melkamu",
+    sender_lastname: "Argaw",
+    profile: "",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Minie",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/3541388/pexels-photo-3541388.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+  {
+    user_id: 80,
+    sender_id: 12,
+    sender_firstname: "Hareg",
+    sender_lastname: "Argaw",
+    profile:
+      "https://images.pexels.com/photos/4132375/pexels-photo-4132375.jpeg?auto=compress&cs=tinysrgb&w=400",
+    date: "05:06",
+    message: "we will graduate in augest",
+    message_r: "hello from addis avava",
+  },
+];
